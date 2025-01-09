@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Image Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles_of_gallery.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="nav_bar">
+            <div class="nav_logo">
+                <a id="logo" href="">IMAGE GALLERY</a>
+                <ul>
+                    <li><label for=""></label></li>
+                    <input id="Search" type="text" placeholder="   Hover Image Gallery">
+                    <li><button id="search_btn" style="margin-right: 200px;"><a href="">Search</a></button></li>
+                    <li><button id="log_in"><a href="">Log in</a></button></li>
+                    <li><button id="sign"><a href="">Sign In</a></button></li>
+                    <li><button id="Upload"><a href=""><i
+                                    class="fa-solid fa-arrow-up-from-bracket fa-bounce"></i>Upload</a></button></li>
+                </ul>
+            </div>
+        </div>
+        <hr style="border: 1px solid #ccc; width: 100%; margin: 0; padding: 0;">
+    </nav>
+    <div class="sub_div">
+        <ul>
+            <li><button><a href="#gallery">2D Tranform Effects</a></button></li>
+            <li><button><a href="#gallery_1">3D Tranform Effects</a></button></li>
+            <li><button><a href="#gallery_2">Combined Tranform Effects</a></button></li>
+            <li><button><a href="#gallery_3">Effects</a></button></li>
+        </ul>
+    </div>
+    <hr style="border: 1px solid #ccc; width: 100%; margin: 0; padding: 0;">
+    <div class="sub_heading">
+        <h2>Hover Image Gallery</h2>
+    </div>
+    <div class="main_container">
+        <div class="gallery" id="gallery">
+            <div class="image_container">
+                <div class="image_1">
+                    <img src="https://images.pexels.com/photos/640781/pexels-photo-640781.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                        alt="Image 1">
+                    <button><a href="">Scale</a></button>
+                </div>
+            </div>
+            <div class="image_container">
+                <div class="image_2">
+                    <img src="https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                        alt="Image 2">
+                    <button><a href="">Translate</a></button>
+                </div>
+            </div>
+            <div class="image_container">
+                <div class="image_3">
+                    <img src="https://images.pexels.com/photos/1379636/pexels-photo-1379636.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                        alt="Image 2">
+                    <button><a href="">Skew (Tilt an Element)</a></button>
+                </div>
+            </div>
+            <div class="image_container">
+                <div class="image_4">
+                    <img src="https://images.pexels.com/photos/1624255/pexels-photo-1624255.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                        alt="Image 2">
+                    <button><a href="">Rotate</a></button>
+                </div>
+            </div>
+            <div class="image_container">
+                <div class="image_5">
+                    <img src="https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                        alt="Image 2">
+                    <button><a href="">Matrix</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="gallery_1" id="gallery_1">
+            <div class="image_container">
+                <div class="image_6">
+                    <img src="https://images.pexels.com/photos/1042423/pexels-photo-1042423.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                        alt="Image 1">
+                    <button><a href="">3D Rotation</a></button>
+                </div>
+            </div>
+            <div class="image_container">
+                <div class="image_7">
+                    <img src="https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                        alt="Image 2">
+                    <button><a href="">3D Scale</a></button>
+                </div>
+            </div>
+            <div class="image_container">
+                <div class="image_8">
+                    <img src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&w=1200"
+                        alt="Image 2">
+                    <button><a href="">3D Perspective</a></button>
+                </div>
+            </div>
+            <div class="image_container">
+                <div class="image_9">
+                    <img src="https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                        alt="Image 2">
+                    <button><a href="">3D Rotate(x, y, z, angle)</a></button>
+                </div>
+            </div>
+            <div class="image_container">
+                <div class="image_10">
+                    <img src="https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                        alt="Image 2">
+                    <button><a href="">3D Translate</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="gallery_2" id="gallery_2">
+            <div class="image_container">
+                <div class="image_11">
+                    <img src="https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                        alt="Image 2">
+                    <button><a href="">Translate, Skew, Rotate, and Scale</a></button>
+                </div>
+            </div>
+            <div class="image_container">
+                <div class="image_12">
+                    <img src="https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                        alt="Image 2">
+                    <button><a href="">2D Scale + 3D Rotate</a></button>
+                </div>
+            </div>
+            <div class="image_container">
+                <div class="image_13">
+                    <img src="https://images.pexels.com/photos/457878/pexels-photo-457878.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                        alt="Image 2">
+                    <button><a href="">2D Translate + 3D Rotate</a></button>
+                </div>
+            </div>
+            <div class="image_container">
+                <div class="image_14">
+                    <img src="https://images.pexels.com/photos/458917/pexels-photo-458917.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                        alt="Image 2">
+                    <button><a href="">Perspective + Combined Rotation</a></button>
+                </div>
+            </div>
+            <div class="image_container">
+                <div class="image_15">
+                    <img src="https://images.pexels.com/photos/221471/pexels-photo-221471.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                        alt="Image 2">
+                    <button><a href="">2D Skew + 3D Translate</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="gallery_3" id="gallery_3">
+            <div class="image_container">
+                <div class="image_16">
+                    <img src="https://images.pexels.com/photos/65894/peacock-pen-alluring-yet-lure-65894.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                        alt="Image 2">
+                    <button><a href="">Blur Effect</a></button>
+                </div>
+            </div>
+            <div class="image_container">
+                <div class="image_17">
+                    <img src="https://images.pexels.com/photos/144234/bull-landscape-nature-mammal-144234.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                        alt="Image 2">
+                    <button><a href="">Black and White Effect</a></button>
+                </div>
+            </div>
+            <div class="image_container">
+                <div class="image_18">
+                    <img src="https://images.pexels.com/photos/1046287/pexels-photo-1046287.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                        alt="Image 2">
+                    <button><a href="">Invert Effect</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <ul class="footer_menu">
+                <li class="list-group-item">Terms of use</li>
+                <li class="list-group-item">Privacy Policy</li>
+                <li class="list-group-item">License</li>
+                <li class="list-group-item">Cookies Policy</li>
+            </ul>
+            <div class="footer_buttons">
+                <button type="button" class="btn btn-sm"><img style="width: 90px; height: 35px;"
+                        src="https://www.pizzahut.co.in/order/images/icons/app-store-ios.fd6d0921ff522febd6e2a4c2fab9af72.svg"
+                        alt=""></button>
+                <button type="button" class="btn btn-sm"><img style="width: 90px; height: 35px;"
+                        src="https://www.pizzahut.co.in/order/images/icons/app-store-google-play.b1ffb9f40420b63efe43e34f60bfb682.png"
+                        alt=""></button>
+            </div>
+            <div class="conclusion">
+                <p> © 2025 Iamge Gallery. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
