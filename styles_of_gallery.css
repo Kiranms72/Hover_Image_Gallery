@@ -154,7 +154,7 @@ body {
     background-color: rgb(7, 186, 7);
     border-color: white;
     border: 1px solid #dddfe2;
-    border-radius: 7px;
+    border-radius: 10px;
     padding: 5px;
 }
 
@@ -521,4 +521,92 @@ body {
     padding-top: 7px;
     font-size: 13px;
     text-align: center;
+}
+@media (max-width: 768px) {
+    .gallery, .gallery_1, .gallery_2, .gallery_3 {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .image_container, 
+    .image_container img,
+    .image_1, .image_2, .image_3, .image_4, .image_5,
+    .image_6, .image_7, .image_8, .image_9, .image_10,
+    .image_11, .image_12, .image_13, .image_14, .image_15,
+    .image_16, .image_17, .image_18 {
+        width: 100%;
+        max-width: 330px;
+        height: auto;
+    }
+
+    .nav_bar, .sub_div {
+        flex-direction: column;
+        padding: 10px;
+        height: auto;
+    }
+
+    .nav_logo {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav_logo li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    #Search {
+        width: 90%;
+    }
+
+    .footer_menu {
+        flex-wrap: wrap;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .footer_buttons {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .sub_heading h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .image_container,
+    .image_container img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .nav_logo li a,
+    .sub_div button {
+        font-size: 12px;
+    }
+
+    .sub_div button {
+        padding: 6px;
+        margin: 10px;
+    }
+
+    .footer {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .conclusion {
+        font-size: 12px;
+    }
+
+    #Search {
+        width: 100%;
+    }
+
+    .sub_heading h2 {
+        font-size: 22px;
+        margin-left: 10px;
+    }
 }
